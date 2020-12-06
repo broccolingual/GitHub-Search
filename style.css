@@ -69,12 +69,12 @@ input:focus {
 .card { 
     background-color: #1E1C36;
     display: flex;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 20px;
     box-shadow: 0 0 20px black;
     min-width: 600px;
     max-width: 800px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
 }
 
 .avatar {
@@ -163,7 +163,6 @@ input:focus {
 }
 
 .repo-cards .card{
-    padding: 2rem;
     background-color: #C7C7D6;
 }
 
@@ -179,6 +178,7 @@ input:focus {
 .repo-cards .user-info ul{
     display: flex;
     padding: 0;
+    margin: 0;
     max-width: 180px;
     justify-content: space-between;
     list-style-type: none;
