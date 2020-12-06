@@ -53,7 +53,7 @@ input {
     color: black;
     box-shadow: 0 0 20px black;
     font-family: inherit;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
     min-width: 300px;
 }
@@ -86,12 +86,12 @@ input:focus {
 
 .user-info {
     color: #C7C7D6;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 2rem;
 }
 
 .user-info .user {
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #C7C7D6;
     /* text-decoration: none; */
     margin-top: 0;
@@ -151,7 +151,7 @@ input:focus {
     border-radius: 6px;
     display: inline-block;
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0.25rem 0.5rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
@@ -160,7 +160,6 @@ input:focus {
 
 .repo-cards {
     color: #1E1C36;
-    font-size: 1.2rem;
 }
 
 .repo-cards .card{
