@@ -186,7 +186,7 @@ input:focus {
     display: flex;
     padding: 0;
     margin: 0;
-    max-width: 180px;
+    width: 180px;
     justify-content: space-between;
     list-style-type: none;
 }
