@@ -151,7 +151,7 @@ input:focus {
 .user-info .info ul li {
     display: flex;
     align-items: center;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
 }
 
 .repo {
