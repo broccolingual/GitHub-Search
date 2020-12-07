@@ -101,11 +101,9 @@ function addReposToCard(repos) {
         const repoEl = document.createElement("div");
         repoEl.classList.add("card");
 
-        repoEl.href = repo.html_url;
-        repoEl.target = "_blank"
         repoEl.innerHTML = `
             <div class="user-info">
-                <a href=${repo.html_url} class="user">${repo.name}</a>
+                <a href=${repo.html_url} target="_blank" class="user">${repo.name}</a>
                 <p>${repo.description}</p>
                 <ul>
                     <li>

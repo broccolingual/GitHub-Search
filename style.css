@@ -11,14 +11,26 @@ body {
 }
 
 .container {
-    padding-top: 2rem;
+    padding: 1rem;
+    max-width: 1024px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+    border-bottom: 1px solid white;
 }
 
 .search-container {
     display: flex;
-    justify-content: center;
-    padding: 2rem;
-    color: white;
 }
 
 .profile-container {
@@ -27,22 +39,22 @@ body {
 
 .repos-container {
     padding: 1rem 2rem;
-    height: 30vh;
-    overflow: scroll;
+    max-height: 30vh;
+    overflow: auto;
     overflow-x: hidden;
 }
 
 .repos-container::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
 }
 
 .repos-container::-webkit-scrollbar-track {
-    border-radius: 10px;
+    border-radius: 6px;
     background: #54546B;
 }
 
 .repos-container::-webkit-scrollbar-thumb {
-    border-radius: 10px;
+    border-radius: 6px;
     background:#6D74F7;
 }
 
@@ -55,7 +67,7 @@ input {
     font-family: inherit;
     font-size: 1rem;
     padding: 1rem;
-    min-width: 300px;
+    min-width: 240px;
 }
 
 input::placeholder {
@@ -72,16 +84,14 @@ input:focus {
     padding: 1.5rem;
     border-radius: 20px;
     box-shadow: 0 0 20px black;
-    min-width: 600px;
-    max-width: 800px;
     margin-bottom: 1.2rem;
 }
 
 .avatar {
     border: 10px solid #6D74F7;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
 }
 
 .user-info {
